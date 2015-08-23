@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>remark style</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="theme.css">
+  </head>
+  <style>
+    /* Two-column layout */
+    .left-column {
+      width: 45%;
+      float: left;
+    }
+    .right-column {
+      width: 45%;
+      float: right;
+    }
+  </style>
+  <body>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
+<textarea id="source">
+class: middle
+
+# Light Theme
+
+---
+# Headers
+
+# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+
+---
+# Lists
+
+* list
+* list
+    * list
+        * list
+            * list
+1. list
+1. list
+    1. list
+        1. list
+            1. list
+
+---
+## Inline
+
+.left-column[
+
+normal
+
+----
+
+*strong*
+
+----
+
+**strong**
+
+----
+
+[link](http://www.google.com)
+
+----
+
+`inline code`
+
+]
+
+.right-column[
+
+.accent[accent]
+
+----
+
+.small[small]
+
+----
+
+.big[big]
+
+]
+
+---
+# Block
+
+##### small image
+.small[![image](http://svgporn.com/logos/html-5.svg)]
+
+> "blockquote"
+
+```javascript
+// javascript
+var message = "hello world"
+```
+
+---
+class: center
+
+# Block - big image
+.big[![image](http://svgporn.com/logos/html-5.svg)]
+
+---
+# Table
+
+|header|header|header|
+|------|------|------|
+|body  |body  |body  |
+|body  |body  |body  |
+|body  |body  |body  |
+
+---
+class: fit-left
+background-image: url(background.jpg)
+
+.glass[
+# {{class}}
+]
+
+---
+class: fit-right, right
+background-image: url(background.jpg)
+
+.glass[
+# {{class}}
+]
+
+---
+class: fit, middle, center
+background-image: url(background.jpg)
+
+.glass[
+# {{class}}
+]
+
+---
+class: dark, scenter, middle
+
+# Dark Theme
+
+---
+class: dark
+
+# Headers
+
+# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+
+---
+class: dark
+
+# Lists
+
+* list
+* list
+    * list
+        * list
+            * list
+1. list
+1. list
+    1. list
+        1. list
+            1. list
+
+---
+class: dark
+## Inline
+
+.left-column[
+
+normal
+
+----
+
+*strong*
+
+----
+
+**strong**
+
+----
+
+[link](http://www.google.com)
+
+----
+
+`inline code`
+
+]
+
+.right-column[
+
+.accent[accent]
+
+----
+
+.small[small]
+
+----
+
+.big[big]
+
+]
+
+---
+class: dark
+
+# Block
+
+##### small image
+.small[![image](http://svgporn.com/logos/html-5.svg)]
+
+> "blockquote"
+
+```javascript
+// javascript
+var message = "hello world"
+```
+
+---
+class: dark, center
+
+# Block - big image
+
+.big[![image](http://svgporn.com/logos/html-5.svg)]
+
+---
+class: dark
+
+# Table
+
+|header|header|header|
+|------|------|------|
+|body  |body  |body  |
+|body  |body  |body  |
+|body  |body  |body  |
+
+---
+class: dark, fit-left
+background-image: url(background.jpg)
+
+.glass[
+# {{class}}
+]
+
+---
+class: dark, fit-right, right
+background-image: url(background.jpg)
+
+.glass[
+# {{class}}
+]
+
+---
+class: dark, fit, middle, center
+background-image: url(background.jpg)
+
+.glass[
+# {{class}}
+]
+
+</textarea>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
